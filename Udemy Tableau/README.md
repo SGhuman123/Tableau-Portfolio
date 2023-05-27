@@ -12,13 +12,22 @@ Here are what I learnt in the various sections:
     - Adjusting colors, labels and formatting and exporting Tableau worksheets.
 
 - Section 3:
-  - In this section, I work with the dataset call Long-Term-Unemployment-Statistics.xlsx. Concepts I learnt are:
+  - In this section, I work with the dataset called Long-Term-Unemployment-Statistics.xlsx. Concepts I learnt are:
     - Working with data extracts
     - Working with time series
     - Understanding aggregation, granularity and level of detail
     - Creating an area chart and learning about highlighting
     - Adding a filter and quick filters
+
 - Section 4:
+  - In this section, I work with the dataset called P1-AmazingMartEU2.xlsx. Some concepts I learnt are:
+    - The differences between relationships and joins
+    - How to join data in Tablea
+    - Creating maps and working with hierachies
+    - Creating a scatterplot and applying filters to multiple worksheets
+    - Creating a dashboard
+    - Adding an interative action filter and interation action highlighting.
+
 - Section 5:
 - Section 6:
 - Section 7:
