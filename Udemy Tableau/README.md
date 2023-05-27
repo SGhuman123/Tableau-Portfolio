@@ -53,7 +53,7 @@ Here are what I learnt in the various sections:
 
 
 - Section 6:
-  - In this sectionI used the following datset:
+  - In this section, I used the following datset:
     - P1-UK-Bank-Customers.csv
   - Use case:
     - The dataset was used to create a dashboard to show the distribution of customers by balance, age, gender and job classification where the dashboard will adjust accordingly based on a particular region on the map.
@@ -69,6 +69,20 @@ Here are what I learnt in the various sections:
     - How to create a storyline
 
 - Section 7:
+  - In this section, I used the following datset:
+    - P1-PersonalVehicleSalesGlobal.xlsx
+  - Use case:
+    - 
+
+  - In this section, I learnt about:
+    - How to decide which format the data should be in
+    - How to use Tableau data interpreter
+    - How to use Tableau's pivot tool
+    - How to split a column into multiple columns
+    - The to use the metadata grid
+    - How to fix geographical data errors in Tableau
+
+   
 - Section 8:
 - Section 9:
 - Section 10:
