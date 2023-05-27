@@ -60,7 +60,14 @@ Here are what I learnt in the various sections:
 
     
   - In this section, I learnt about:
-    - E
+    - How to build boxplots
+    - Analyzing boxplots
+    - How to work with large data sources
+    - How and when it is appropriate to split and pivot the dataset.
+    - How to use source filters
+    - How to use trendlines
+    - How to blend timeseries data
+    - How forecasting works in Tableau
 
 
 - Section 5:
