@@ -85,8 +85,8 @@ Here are what I learnt in the various sections:
       - Calculate the distance between stores and highlight the stores which are
 more than ½ mile from another branch.
 
-Task: 
-    - For this project, you need to use the client’s logo (provided as separate file) as well as custom map backgrounds.
+- Task: 
+  - For this project, you need to use the client’s logo (provided as separate file) as well as custom map backgrounds.
     
   - In this section, I learnt about:
     - L
