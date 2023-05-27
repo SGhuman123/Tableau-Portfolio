@@ -150,7 +150,7 @@ Here are what I learnt in the various sections:
     - os.csv
     
   - In this section, I learnt about:
-    - Creatinf dashboards
+    - Creating dashboards
     - Adjusting dashboards size and device preview
     - Auto-generating mobile layout
     - Visual best practices for devices
@@ -165,7 +165,13 @@ Here are what I learnt in the various sections:
     - kiva_loans.csv
     
   - In this section, I learnt about:
-    - H
+    - Action: Filter
+    - Action: Highlight
+    - Action: Change parameter
+    - Action: Change Set values
+    - Action: Go to sheet
+    - Action: Go to URL
+    - Worksheet actions
 
 
 - Section 13:
@@ -173,7 +179,13 @@ Here are what I learnt in the various sections:
     - Australian Startup Budget Electric Car Sales.xlsx
     
   - In this section, I learnt about:
-    - H
+    - Creating a calculated field
+    - String calculated fields
+    - Date Calculated fields
+    - Row-levels vs Aggregate Calculations
+    - Logic Statements
+    - Working with parameters
+    - Calculated field in a blend
 
 
 - Section 14:
@@ -181,15 +193,29 @@ Here are what I learnt in the various sections:
     - Australian Startup Budget Electric Car Sales.xlsx
     
   - In this section, I learnt about:
-    - H
+    - Quick table calculations: Percent of Total
+    - Quick table calculations: Rank
+    - Quick table calculations: Running Total
+    - Nested table Calculations
+    - Quick table calcuations: Moving Averages
+    - Quick table calculations: Difference
+    - Quick table calculations: Percent Difference
+    - Table Calculations Theory: Scope and Direction
+    - Custom Table Calculations
 
 
 - Section 15:
   - In this section I used the following datasets:
     - Australian Startup Budget Electric Car Sales.xlsx
     - Gift Retailer International Online Sales 2011.xlsx
-  - Use cases:
-    - I 
     
   - In this section, I learnt about:
-    - H
+    - Level of Detail (LOD) FIXED LOD - Percent of Total
+    - LOD Planning
+    - Building the LOD
+    - FIXED LOD
+    - Level of Detail (LOD) INCLUDE LOD 
+    - INCLUDE LOD
+    - EXCLUDE LOD
+    - ATTR function
+    - Nested LODs
