@@ -5,11 +5,14 @@ As part of this online Udemy course this folder is used to showcase some of the 
 https://www.udemy.com/course/tableau10/
 
 Here are what I learnt in the various sections:
+
+
 - Section 2: 
   - In this section, I seek to find out which 3 employees are suitable for eligible bonus for a particular fiscal year. Where employees are measured based on the total value of sales ($) and given the store operates in 3 regions. Some skills I learnt in this section are:
     - Connecting Tableau to a csv file
     - Creating calculated fields
     - Adjusting colors, labels and formatting and exporting Tableau worksheets.
+
 
 - Section 3:
   - In this section, I work with the dataset called Long-Term-Unemployment-Statistics.xlsx. Concepts I learnt are:
@@ -18,6 +21,7 @@ Here are what I learnt in the various sections:
     - Understanding aggregation, granularity and level of detail
     - Creating an area chart and learning about highlighting
     - Adding a filter and quick filters
+
 
 - Section 4:
   - In this section, I work with the dataset called P1-AmazingMartEU2.xlsx. Some concepts I learnt are:
@@ -28,6 +32,7 @@ Here are what I learnt in the various sections:
     - Creating a dashboard
     - Adding an interative action filter and interation action highlighting.
 
+
 - Section 5:
   - In this section I used the following datasets:
     - P1-Airline-Comparison.xlsx
@@ -35,7 +40,7 @@ Here are what I learnt in the various sections:
     - Brazilian-E-commerce-Dataset
   - Use cases:
     - I used the P1-AmazingMartEU2.xlsx to show the relationship between target and sales across the categories of furniture, office supplies and technology overtime. This dataset was also used to show the relationship between sales and targets alongside the expenses used to meet those targets in a particular month.
-    - I used the Brazilian-E-commerce-Dataset to create a map to show E-commerce sellers in their geographical locations and bubbles to illustrate the amount of money in total payments these sellers have received from customers.
+    - I used the Brazilian-E-commerce-Dataset to create a map to show E-commerce sellers in their geographical locations and bubbles to illustrate the amount of money in total payments these sellers have received from customers. I also learnt about how to read a data schema.
     
   - In this section, I learnt about:
     - Left, right, inner and outer joins.
