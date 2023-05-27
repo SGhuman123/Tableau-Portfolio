@@ -39,7 +39,12 @@ Here are what I learnt in the various sections:
     - P11-8501011-Retail-Turnover-State-by-Industry-Subgroup.xlsx
     - P11-Competitor-Research.csv
   - Use cases:
-    - I
+    - An Australian retail chain operating in the "Clothing Retailing" industry has only been running operations in New South Wales. But, the Board of Directors is considering an expansion in one of the following 3 states:
+      - Quensland
+      - Victoria
+      - Western Australia
+    - My task is to assess the business environment for the industry in each of the 3 states for the Board of Directors 
+
     
   - In this section, I learnt about:
     - E
