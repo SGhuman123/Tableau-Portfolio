@@ -73,7 +73,7 @@ Here are what I learnt in the various sections:
     - P1-PersonalVehicleSalesGlobal.xlsx
 
   - Use case:
-    - For learning about data preparation.
+    - For learning about data preparation. This was also used to show the percentage total vehicles sold each year across different regions in the world in a bar chart as well as a geographical map to show the distribution.
 
   - In this section, I learnt about:
     - How to decide which format the data should be in
