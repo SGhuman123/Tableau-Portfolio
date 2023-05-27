@@ -15,10 +15,15 @@ Here are what I learnt in the various sections:
       -  High revenue (2015)
       -  Low expenses (2015)
       -  Top Growth (2015)
-    - My task is to assist the Board in identifying which businesses represents the best investment opportunities.
+    - My task is to assist the Board in identifying which businesses represents the best investment opportunities. As such, I created a dashboard to present these findings.
     
   - In this section, I learnt about:
-    - D
+    - How to work with groups
+    - How to create static sets
+    - How to create dynamic sets
+    - How to combine sets
+    - How to control sets with paramters
+    - How to improve dashboards
 
 
 - Section 3:
