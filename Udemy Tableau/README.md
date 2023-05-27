@@ -53,6 +53,21 @@ Here are what I learnt in the various sections:
 
 
 - Section 6:
+  - In this sectionI used the following datset:
+    - P1-UK-Bank-Customers.csv
+  - Use case:
+    - d
+
+  - In this section, I learnt about:
+    - How to set geographical roles in mapping
+    - How to create table calculations
+    - Creating bins and distributions
+    - How to use paramters
+    - How to create a tree map chart
+    - How to segment data in a dashboard
+    - How to make my dashboard more interactice
+    - How to create a storyline
+
 - Section 7:
 - Section 8:
 - Section 9:
