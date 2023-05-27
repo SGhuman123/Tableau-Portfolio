@@ -77,7 +77,7 @@ Here are what I learnt in the various sections:
     - P11-Fertility-Rate.xls
     - P11-Life-Expectancy-At-Birth.xls
   - Use cases:
-    - My assignment is to deliver an animated dashboard showing how populations of countries across the World have been developing over the past 50 years. The stakeholders of this assignment are interested in trends in fertility, life expectancy and population. They would not only like to drill into overall trends but trends in individual countries as well.
+    - My assignment is to deliver an animated dashboard showing how populations of countries across the World have been developing over the past 50 years. The stakeholders of this assignment are interested in trends in fertility, life expectancy and population. They would not only like to drill into overall trends but trends in individual countries as well. As such, I created an animation feature to observe the change in the data across the years.
     
   - In this section, I learnt about:
     - How to edit blending relationships
