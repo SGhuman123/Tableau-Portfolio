@@ -29,6 +29,24 @@ Here are what I learnt in the various sections:
     - Adding an interative action filter and interation action highlighting.
 
 - Section 5:
+  - In this section I used the following datasets:
+    - P1-Airline-Comparison.xlsx
+    - P1-AmazingMartEU2.xlsx
+    - Brazilian-E-commerce-Dataset
+  - Use cases:
+    - I used the P1-AmazingMartEU2.xlsx to show the relationship between target and sales across the categories of furniture, office supplies and technology overtime. This dataset was also used to show the relationship between sales and targets alongside the expenses used to meet those targets in a particular month.
+    - I used the Brazilian-E-commerce-Dataset to 
+    
+  - In this section, I learnt about:
+    - Left, right, inner and outer joins.
+    - How to join with duplicate values.
+    - Joining based on multiple fields
+    - Data blending in Tableau using the P1-Airline-Comparison.xlsx dataset.
+    - How to create a dual axis chart using the P1-AmazingMartEU2.xlsx dataset.
+    - How to create a calculated fields in a blend
+    - Working with relationships in Tableau
+
+
 - Section 6:
 - Section 7:
 - Section 8:
