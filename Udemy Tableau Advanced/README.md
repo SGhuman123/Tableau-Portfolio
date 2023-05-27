@@ -88,8 +88,8 @@ more than ½ mile from another branch.
 - Task: 
   - For this project, you need to use the client’s logo (provided as separate file) as well as custom map backgrounds.
     
-  - In this section, I learnt about:
-    - L
+- In this section, I learnt about:
+  - 
 
 
 
