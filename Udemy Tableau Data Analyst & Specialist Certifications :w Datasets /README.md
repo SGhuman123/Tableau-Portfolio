@@ -9,7 +9,9 @@ Here are what I learnt in the various sections:
 
 - Section 2:
   - In this section I used the following datasets:
-    - P
+    - Crosstab challenge.xlsx
+    - Crosstab n2.xlsx
+    - Rotten Tomatoes top 200 of 2010s.csv
   - Use cases:
     - I 
     
@@ -19,7 +21,7 @@ Here are what I learnt in the various sections:
 
 - Section 3:
   - In this section I used the following datasets:
-    - P
+    - NBA 2018-19 Season.csv
   - Use cases:
     - I 
     
@@ -29,7 +31,8 @@ Here are what I learnt in the various sections:
 
 - Section 4:
   - In this section I used the following datasets:
-    - P
+    - LeBron James Career.csv
+    - Michael Jordan Career.csv
   - Use cases:
     - I 
     
@@ -39,7 +42,7 @@ Here are what I learnt in the various sections:
 
 - Section 5:
   - In this section I used the following datasets:
-    - P
+    - WorldBank Data.xlsx
   - Use cases:
     - I 
     
@@ -49,7 +52,7 @@ Here are what I learnt in the various sections:
 
 - Section 6:
   - In this section I used the following datasets:
-    - P
+    - WorldBank Data.xlsx
   - Use cases:
     - I 
     
@@ -59,7 +62,8 @@ Here are what I learnt in the various sections:
 
 - Section 7:
   - In this section I used the following datasets:
-    - P
+    - Spotify2018-top100.csv
+    - Youtube Views Timeseries.csv
   - Use cases:
     - I 
     
@@ -78,8 +82,6 @@ Here are what I learnt in the various sections:
 
 
 - Section 9:
-  - In this section I used the following datasets:
-    - P
   - Use cases:
     - I 
     
@@ -89,7 +91,7 @@ Here are what I learnt in the various sections:
 
 - Section 10:
   - In this section I used the following datasets:
-    - P
+    - Airbnb Listings - Berlin.csv
   - Use cases:
     - I 
     
@@ -99,7 +101,9 @@ Here are what I learnt in the various sections:
 
 - Section 11:
   - In this section I used the following datasets:
-    - P
+    - browsers.csv
+    - devices.csv
+    - os.csv
   - Use cases:
     - I 
     
@@ -109,7 +113,7 @@ Here are what I learnt in the various sections:
 
 - Section 12:
   - In this section I used the following datasets:
-    - P
+    - kiva_loans.csv
   - Use cases:
     - I 
     
@@ -119,7 +123,7 @@ Here are what I learnt in the various sections:
 
 - Section 13:
   - In this section I used the following datasets:
-    - P
+    - Australian Startup Budget Electric Car Sales.xlsx
   - Use cases:
     - I 
     
@@ -129,7 +133,7 @@ Here are what I learnt in the various sections:
 
 - Section 14:
   - In this section I used the following datasets:
-    - P
+    - Australian Startup Budget Electric Car Sales.xlsx
   - Use cases:
     - I 
     
@@ -139,7 +143,8 @@ Here are what I learnt in the various sections:
 
 - Section 15:
   - In this section I used the following datasets:
-    - P
+    - Australian Startup Budget Electric Car Sales.xlsx
+    - Gift Retailer International Online Sales 2011.xlsx
   - Use cases:
     - I 
     
