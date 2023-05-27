@@ -11,7 +11,11 @@ Here are what I learnt in the various sections:
   - In this section I used the following datasets:
     - P11-1000-Startups.xlsx
   - Use cases:
-    - I
+    - I have been approached by a Venture Capital Fund where the board of directors are currently reviewing 1000 potentially interesting startups and deciding on which to invest in based on the following criterions:
+      -  High revenue (2015)
+      -  Low expenses (2015)
+      -  Top Growth (2015)
+    - My task is to assist the Board in identifying which businesses represents the best investment opportunities.
     
   - In this section, I learnt about:
     - D
@@ -21,7 +25,9 @@ Here are what I learnt in the various sections:
   - In this section I used the following datasets:
     - P11-Coal-Terminal.xlsx
   - Use cases:
-    - I
+    - I have been hired by a Coal Terminal to assess which of their Coal Reclaimer machines need maintenance in the upcoming month. These machines run literally 24/7 for 365 days a year and every minute of downtime equates to millions of dollars lost revenue thus the importance of this task. Currently, the Coal Terminal follows the following criterion:
+      - A reclaimer-type machine needs maintenance when within the previous month there was at least one 8-hour period when the average idle capacity was over 10%. Where idle capcity = (Actual Tonnage - Normal Capacity)/Nominal Capacity.
+    - My task is to find out which of the 5 machines exceeded the 10% mark and create a report for executive stakeholders. 
     
   - In this section, I learnt about:
     - E
