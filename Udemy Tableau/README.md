@@ -35,7 +35,7 @@ Here are what I learnt in the various sections:
     - Brazilian-E-commerce-Dataset
   - Use cases:
     - I used the P1-AmazingMartEU2.xlsx to show the relationship between target and sales across the categories of furniture, office supplies and technology overtime. This dataset was also used to show the relationship between sales and targets alongside the expenses used to meet those targets in a particular month.
-    - I used the Brazilian-E-commerce-Dataset to 
+    - I used the Brazilian-E-commerce-Dataset to create a map to show E-commerce sellers in their geographical locations and bubbles to illustrate the amount of money in total payments these sellers have received from customers.
     
   - In this section, I learnt about:
     - Left, right, inner and outer joins.
