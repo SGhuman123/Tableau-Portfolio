@@ -65,7 +65,7 @@ Here are what I learnt in the various sections:
     - How to use paramters
     - How to create a tree map chart
     - How to segment data in a dashboard
-    - How to make my dashboard more interactice
+    - How to make my dashboard more interactice through adjusting the tooltip
     - How to create a storyline
 
 - Section 7:
