@@ -35,7 +35,15 @@ Here are what I learnt in the various sections:
     - My task is to find out which of the 5 machines exceeded the 10% mark and create a report for executive stakeholders. 
     
   - In this section, I learnt about:
-    - E
+    - Creating multiple joins in Tableau
+    - The distinction between calculated fields and table calculations
+    - How to save a quick table calculation
+    - How to specify the direction of comuptation and its use cases
+    - How to write my own table calculations
+    - How to add a second layer of moving averages
+    - How to ensure quality assurance for table calculations
+    - How to generate various kinds of trendlines
+    - How to create a storyline.
 
 
 - Section 4:
