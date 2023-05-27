@@ -118,7 +118,11 @@ more than ½ mile from another branch.
   - For this project, you need to use the client’s logo (provided as separate file) as well as custom map backgrounds.
     
 - In this section, I learnt about:
-  - 
+  - Background maps
+  - Using the drawing tool in Tableau
+  - Distance calculations in Tableau
+  - Customizing maps with Mapbox
+  - Custom images on maps
 
 
 
