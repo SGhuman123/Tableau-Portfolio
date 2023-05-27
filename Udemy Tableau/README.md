@@ -104,4 +104,15 @@ Here are what I learnt in the various sections:
     - How to use cross-database joins
     - How to model with clusters
     - How to save my clusters
+
+
 - Section 9:
+  - Use case:
+    - We use the datasets here to analyse the crime incidents reported to the New York Police Department (NYPD) which occured at NYC parks in the first quarter of 2018. These results are then displayed in a map that consist of the actual park layout and size
+
+  - In this section, I learnt about:
+    - How to extract data from PDF files
+    - How to connect to PDF files
+    - How to connect to spatial files
+    - How joining to spatial files work
+
