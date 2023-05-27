@@ -6,12 +6,18 @@ https://www.udemy.com/course/tableau10/
 
 Here are what I learnt in the various sections:
 - Section 2: 
-  - I seek to find out which 3 employees are suitable for eligible bonus for a particular fiscal year. Where employees are measured based on the total value of sales ($) and given the store operates in 3 regions. Some skills I learnt in this section are:
+  - In this section, I seek to find out which 3 employees are suitable for eligible bonus for a particular fiscal year. Where employees are measured based on the total value of sales ($) and given the store operates in 3 regions. Some skills I learnt in this section are:
     - Connecting Tableau to a csv file
     - Creating calculated fields
     - Adjusting colors, labels and formatting and exporting Tableau worksheets.
 
 - Section 3:
+  - In this section, I work with the dataset call Long-Term-Unemployment-Statistics.xlsx. Concepts I learnt are:
+    - Working with data extracts
+    - Working with time series
+    - Understanding aggregation, granularity and level of detail
+    - Creating an area chart and learning about highlighting
+    - Adding a filter and quick filters
 - Section 4:
 - Section 5:
 - Section 6:
