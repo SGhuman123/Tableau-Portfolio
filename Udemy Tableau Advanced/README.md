@@ -93,7 +93,13 @@ Here are what I learnt in the various sections:
     - I have been tasked to create a geographical plot of a retail chain operating in the US where state colors represent the average profits across the cities of that state. circle colours and sizes show the percent contribution of the profit of the respective city towards the overall profit of the state.
     
   - In this section, I learnt about:
-    - E
+    - How aggregation and granularity works in Tableau
+    - Level of Detail (LOD) calculations
+    - LOD Type 1: INCLUDE
+    - Understanding ATTR() in Tableau
+    - LOD Type 2: EXCLUDE
+    - Multiple fields in LOD calculation
+    - LOD Type 3: FIXED
 
 
 - Section 7:
