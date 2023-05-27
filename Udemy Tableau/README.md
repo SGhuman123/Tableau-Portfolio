@@ -7,7 +7,9 @@ https://www.udemy.com/course/tableau10/
 Here are what I learnt in the various sections:
 - Section 2: 
   - I seek to find out which 3 employees are suitable for eligible bonus for a particular fiscal year. Where employees are measured based on the total value of sales ($) and given the store operates in 3 regions. Some skills I learnt in this section are:
-    - Connecting
+    - Connecting Tableau to a csv file
+    - Creating calculated fields
+    - Adjusting colors, labels and formatting and exporting Tableau worksheets.
 
 - Section 3:
 - Section 4:
