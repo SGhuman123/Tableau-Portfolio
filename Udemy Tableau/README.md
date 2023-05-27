@@ -56,7 +56,7 @@ Here are what I learnt in the various sections:
   - In this sectionI used the following datset:
     - P1-UK-Bank-Customers.csv
   - Use case:
-    - d
+    - The dataset was used to create a dashboard to show the distribution of customers by balance, age, gender and job classification where the dashboard will adjust accordingly based on a particular region on the map.
 
   - In this section, I learnt about:
     - How to set geographical roles in mapping
