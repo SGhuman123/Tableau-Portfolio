@@ -85,4 +85,23 @@ Here are what I learnt in the various sections:
 
    
 - Section 8:
+  - In this section, I used the following datset:
+    - P1-US-Cities-Population.csv
+    - P1-StartupExpansion.xlsx
+
+  - Use case:
+    - Used to identify which of the 2 sales region outperforms the other in 2 of the following 3 metrics:
+      - Average revenue per city
+      - Average marketing spend per city (less is better)
+      - Average ROMI (Return on Marketing Investment) per city (revenue/marketing spend)
+    - Used to identify which of the 10 new locations have the best potentail for the company to invest more funds into marketing.
+
+  - In this section, I learnt about:
+    - How to create custom territories via groups
+    - How to create custom territories via geographic roles
+    - How to add a highlighter
+    - How to cluster in Tableau
+    - How to use cross-database joins
+    - How to model with clusters
+    - How to save my clusters
 - Section 9:
