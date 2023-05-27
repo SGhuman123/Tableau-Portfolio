@@ -1,0 +1,984 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0712.0325                               -->
+<workbook original-version='18.1' source-build='2021.4.9 (20214.22.0712.0325)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Benchmarks ' inline='true' name='federated.1b78uvr0td3k8o18wff1r0orxz5d' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Glassdoor 2019-11 Benchmarks' name='excel-direct.175kpjg1awt1qn0zp3taf10x4pic'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/a65911/Downloads/Udemy/Udemy Tableau Data Analyst &amp; Specialist Certifications :w Datasets /Section_8/5. Blending/Glassdoor 2019-11 Benchmarks.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.175kpjg1awt1qn0zp3taf10x4pic' name='Benchmarks' table='[Benchmarks$]' type='table'>
+          <columns gridOrigin='A1:B18:no:A1:B18:0' header='yes' outcome='6'>
+            <column datatype='string' name='Job Category' ordinal='0' />
+            <column datatype='integer' name='Benchmark' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.175kpjg1awt1qn0zp3taf10x4pic' name='Benchmarks' table='[Benchmarks$]' type='table'>
+          <columns gridOrigin='A1:B18:no:A1:B18:0' header='yes' outcome='6'>
+            <column datatype='string' name='Job Category' ordinal='0' />
+            <column datatype='integer' name='Benchmark' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Benchmarks]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B18:no:A1:B18:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job Category]</local-name>
+            <parent-name>[Benchmarks]</parent-name>
+            <remote-alias>Job Category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Benchmarks_4BA65EB9674145CB8041217FC0BF9270]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Benchmark</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Benchmark]</local-name>
+            <parent-name>[Benchmarks]</parent-name>
+            <remote-alias>Benchmark</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Benchmarks_4BA65EB9674145CB8041217FC0BF9270]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Job Category 2' datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Benchmarks' datatype='table' name='[__tableau_internal_object_id__].[Benchmarks_4BA65EB9674145CB8041217FC0BF9270]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Benchmarks' id='Benchmarks_4BA65EB9674145CB8041217FC0BF9270'>
+            <properties context=''>
+              <relation connection='excel-direct.175kpjg1awt1qn0zp3taf10x4pic' name='Benchmarks' table='[Benchmarks$]' type='table'>
+                <columns gridOrigin='A1:B18:no:A1:B18:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Job Category' ordinal='0' />
+                  <column datatype='integer' name='Benchmark' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Union of Cities' inline='true' name='federated.0p8w4bs0zoqcqo1789spi1dftvhz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Glassdoor 2019-11 Median Pay Cities' name='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/a65911/Downloads/Udemy/Udemy Tableau Data Analyst &amp; Specialist Certifications :w Datasets /Section_8/5. Blending/Glassdoor 2019-11 Median Pay Cities.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='Union' type='union'>
+          <columns header='yes'>
+            <column datatype='string' name='Job Category' />
+            <column datatype='string' name='Job Title' />
+            <column datatype='integer' name='Median Base Pay' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Atlanta' table='[Atlanta$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Boston' table='[Boston$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Chicago' table='[Chicago$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Houston' table='[Houston$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Los Angeles' table='[&apos;Los Angeles$&apos;]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='New York City' table='[&apos;New York City$&apos;]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Philadelphia' table='[Philadelphia$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='San Francisco' table='[&apos;San Francisco$&apos;]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Seattle' table='[Seattle$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Washington DC' table='[&apos;Washington DC$&apos;]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='Union' type='union'>
+          <columns header='yes'>
+            <column datatype='string' name='Job Category' />
+            <column datatype='string' name='Job Title' />
+            <column datatype='integer' name='Median Base Pay' />
+            <column datatype='string' name='Sheet' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Atlanta' table='[Atlanta$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Boston' table='[Boston$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Chicago' table='[Chicago$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Houston' table='[Houston$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Los Angeles' table='[&apos;Los Angeles$&apos;]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='New York City' table='[&apos;New York City$&apos;]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Philadelphia' table='[Philadelphia$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='San Francisco' table='[&apos;San Francisco$&apos;]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Seattle' table='[Seattle$]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Washington DC' table='[&apos;Washington DC$&apos;]' type='table'>
+            <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+              <column datatype='string' name='Job Category' ordinal='0' />
+              <column datatype='string' name='Job Title' ordinal='1' />
+              <column datatype='integer' name='Median Base Pay' ordinal='2' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Union]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job Category]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Job Category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_E1174F7F78CC40E18127D528969B78C1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job Title]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Job Title</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_E1174F7F78CC40E18127D528969B78C1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median Base Pay</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median Base Pay]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Median Base Pay</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_E1174F7F78CC40E18127D528969B78C1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sheet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sheet]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Sheet</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_E1174F7F78CC40E18127D528969B78C1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[Union]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[_E1174F7F78CC40E18127D528969B78C1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Benchmark Comparison' datatype='real' name='[Calculation_1345380023777755136]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Median Base Pay]) - SUM([federated.1b78uvr0td3k8o18wff1r0orxz5d].[Benchmark])' />
+      </column>
+      <column caption='City' datatype='string' name='[Sheet]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Table Name]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Union' datatype='table' name='[__tableau_internal_object_id__].[_E1174F7F78CC40E18127D528969B78C1]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='federated.1b78uvr0td3k8o18wff1r0orxz5d'>
+        <column datatype='integer' name='[Benchmark]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Union' id='_E1174F7F78CC40E18127D528969B78C1'>
+            <properties context=''>
+              <relation all='true' name='Union' type='union'>
+                <columns header='yes'>
+                  <column datatype='string' name='Job Category' />
+                  <column datatype='string' name='Job Title' />
+                  <column datatype='integer' name='Median Base Pay' />
+                  <column datatype='string' name='Sheet' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Atlanta' table='[Atlanta$]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Boston' table='[Boston$]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Chicago' table='[Chicago$]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Houston' table='[Houston$]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Los Angeles' table='[&apos;Los Angeles$&apos;]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='New York City' table='[&apos;New York City$&apos;]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Philadelphia' table='[Philadelphia$]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='San Francisco' table='[&apos;San Francisco$&apos;]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Seattle' table='[Seattle$]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1vjaq480g8fhgp1h7ofzw0e4nnss' name='Washington DC' table='[&apos;Washington DC$&apos;]' type='table'>
+                  <columns gridOrigin='A1:C85:no:A1:C85:0' header='yes' outcome='6'>
+                    <column datatype='string' name='Job Category' ordinal='0' />
+                    <column datatype='string' name='Job Title' ordinal='1' />
+                    <column datatype='integer' name='Median Base Pay' ordinal='2' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <datasource-relationships>
+    <datasource-dependencies datasource='federated.0p8w4bs0zoqcqo1789spi1dftvhz'>
+      <column datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+      <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.1b78uvr0td3k8o18wff1r0orxz5d'>
+      <column caption='Job Category 2' datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+      <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-relationship source='federated.0p8w4bs0zoqcqo1789spi1dftvhz' target='federated.1b78uvr0td3k8o18wff1r0orxz5d'>
+      <column-mapping>
+        <map key='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Job Category:nk]' value='[federated.1b78uvr0td3k8o18wff1r0orxz5d].[none:Job Category:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+  </datasource-relationships>
+  <worksheets>
+    <worksheet name='Median Base Pay vs Benchmark'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#4e79a7'>Median Base Pay</run>
+            <run bold='true'> vs </run>
+            <run bold='true' fontcolor='#ff0000'>Benchmark</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Union of Cities' name='federated.0p8w4bs0zoqcqo1789spi1dftvhz' />
+            <datasource caption='Benchmarks ' name='federated.1b78uvr0td3k8o18wff1r0orxz5d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0p8w4bs0zoqcqo1789spi1dftvhz'>
+            <column caption='Benchmark Comparison' datatype='real' name='[Calculation_1345380023777755136]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Median Base Pay]) - SUM([federated.1b78uvr0td3k8o18wff1r0orxz5d].[Benchmark])' />
+            </column>
+            <column datatype='string' name='[Job Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Median Base Pay]' role='measure' type='quantitative' />
+            <column caption='City' datatype='string' name='[Sheet]' role='dimension' type='nominal' />
+            <column-instance column='[Median Base Pay]' derivation='Avg' name='[avg:Median Base Pay:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Category]' derivation='None' name='[none:Job Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sheet]' derivation='None' name='[none:Sheet:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1345380023777755136]' derivation='User' name='[usr:Calculation_1345380023777755136:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1b78uvr0td3k8o18wff1r0orxz5d'>
+            <column datatype='integer' name='[Benchmark]' role='measure' type='quantitative' />
+            <column-instance column='[Benchmark]' derivation='Sum' name='[sum:Benchmark:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Sheet:nk]'>
+            <groupfilter function='member' level='[none:Sheet:nk]' member='&quot;Boston&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Sheet:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1b78uvr0td3k8o18wff1r0orxz5d].[sum:Benchmark:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.1b78uvr0td3k8o18wff1r0orxz5d].[sum:Benchmark:qk]' scope='rows' value='false' />
+            <format attr='title' class='0' field='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[avg:Median Base Pay:qk]' scope='rows' value='USD' />
+            <encoding attr='space' class='0' field='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[avg:Median Base Pay:qk]' field-type='quantitative' max='125000.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Job Category:nk]' value='64' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Job Category:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[usr:Calculation_1345380023777755136:qk]' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='265' />
+                <format attr='maxheight' value='265' />
+                <format attr='minwidth' value='1088' />
+                <format attr='maxwidth' value='1088' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[avg:Median Base Pay:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[avg:Median Base Pay:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.087458610534668' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='509' />
+                <format attr='maxheight' value='509' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1b78uvr0td3k8o18wff1r0orxz5d].[sum:Benchmark:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='GanttBar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ff0000' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#ff0000' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='509' />
+                <format attr='maxheight' value='509' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[usr:Calculation_1345380023777755136:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[usr:Calculation_1345380023777755136:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='509' />
+                <format attr='maxheight' value='509' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0p8w4bs0zoqcqo1789spi1dftvhz].[avg:Median Base Pay:qk] + ([federated.1b78uvr0td3k8o18wff1r0orxz5d].[sum:Benchmark:qk] + [federated.0p8w4bs0zoqcqo1789spi1dftvhz].[usr:Calculation_1345380023777755136:qk]))</rows>
+        <cols>[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Job Category:nk]</cols>
+      </table>
+      <simple-id uuid='{5B58FE87-EF24-4C01-B260-3147BE8356A8}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Median Base Pay vs Benchmark'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='1' param='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[avg:Median Base Pay:qk]' type='color' />
+            <card mode='radiolist' param='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Sheet:nk]' show-all='false' type='filter' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[usr:Calculation_1345380023777755136:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Job Category:nk]</field>
+            <field>[federated.0p8w4bs0zoqcqo1789spi1dftvhz].[none:Sheet:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{73EB1EB7-3BA7-411C-9CBC-02CB3C7C0716}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Median Base Pay vs Benchmark' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
