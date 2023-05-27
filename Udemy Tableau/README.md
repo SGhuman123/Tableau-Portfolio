@@ -6,7 +6,8 @@ https://www.udemy.com/course/tableau10/
 
 Here are what I learnt in the various sections:
 - Section 2: 
-  - I seek to find out which 3 employees are suitable for eligible bonus for a particular fiscal year. Where employees are measured based on the total value of sales ($) and given the store operates in 3 regions. Some skills I learnt in this section where
+  - I seek to find out which 3 employees are suitable for eligible bonus for a particular fiscal year. Where employees are measured based on the total value of sales ($) and given the store operates in 3 regions. Some skills I learnt in this section are:
+    - Connecting
 
 - Section 3:
 - Section 4:
