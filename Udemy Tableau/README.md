@@ -73,7 +73,7 @@ Here are what I learnt in the various sections:
     - P1-PersonalVehicleSalesGlobal.xlsx
 
   - Use case:
-    - 
+    - T
 
   - In this section, I learnt about:
     - How to decide which format the data should be in
