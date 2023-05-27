@@ -57,7 +57,7 @@ Here are what I learnt in the various sections:
     - P11-Fertility-Rate.xls
     - P11-Life-Expectancy-At-Birth.xls
   - Use cases:
-    - I
+    - My assignment is to deliver an animated dashboard showing how populations of countries across the World have been developing over the past 50 years. The stakeholders of this assignment are interested in trends in fertility, life expectancy and population. They would not only like to drill into overall trends but trends in individual countries as well.
     
   - In this section, I learnt about:
     - L
@@ -67,7 +67,7 @@ Here are what I learnt in the various sections:
   - In this section I used the following datasets:
     - P11-MegaMerchandise.xlsx
   - Use cases:
-    - I
+    - I have been tasked to create a geographical plot of a retail chain operating in the US where state colors represent the average profits across the cities of that state. circle colours and sizes show the percent contribution of the profit of the respective city towards the overall profit of the state.
     
   - In this section, I learnt about:
     - E
@@ -79,7 +79,14 @@ Here are what I learnt in the various sections:
     - P11-Meeting-Rooms.xlsx
     - P11-NY-Stores.xlsx
   - Use cases:
-    - I
+    - I have been hired by a hypothetical law firm to assist with investigating a problem they are having. This time it is not a legal matter, they require some assistance with analysing their meeting room usage patterns. Staff have been claiming there are never any meeting rooms available to book, making it extremely difficult to meet with their clients. The firm’s partners are of the opinion that meeting rooms are not being utilised properly, and suspect that rooms are often booked, but never used. An expansion to the office to have additional meeting rooms associated with additional costs, and therefore the partners are reluctant to expand the office. You have been supplied with their existing floor plans for the two floors they are occupying and require you to analyse the booked utilisation vs. actual utilisation of all their meeting rooms. You need to use the floor plans as the base of your visualisation and use as a “map” to depict the meeting rooms. As there are two floors, the visualisation needs to be able to move between the two floors.
+    - The Megabucks Coffee Company have hired us to assist them in analysing the locations of their stores in Manhattan (NYC). They will be opening new stores, and need to prioritise locations based on their latest vision. In their vision, they are aiming to ensure that their customers will never be more than a ½ mile away from one of their stores. The priority will therefore be to close the gaps between the existing stores, but they need your help to identify the gaps. Using the supplied store data create maps for the following:
+      - All current store locations – showing the monthly turnover and number of months the store has been operating.
+      - Calculate the distance between stores and highlight the stores which are
+more than ½ mile from another branch.
+
+Task: 
+    - For this project, you need to use the client’s logo (provided as separate file) as well as custom map backgrounds.
     
   - In this section, I learnt about:
     - L
