@@ -80,7 +80,10 @@ Here are what I learnt in the various sections:
     - My assignment is to deliver an animated dashboard showing how populations of countries across the World have been developing over the past 50 years. The stakeholders of this assignment are interested in trends in fertility, life expectancy and population. They would not only like to drill into overall trends but trends in individual countries as well.
     
   - In this section, I learnt about:
-    - L
+    - How to edit blending relationships
+    - How to add animations to my visualisations
+    - How to manually sort blended data
+    - How to leave a trail in my animations
 
 
 - Section 6:
