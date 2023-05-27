@@ -86,4 +86,3 @@ Here are what I learnt in the various sections:
    
 - Section 8:
 - Section 9:
-- Section 10:
