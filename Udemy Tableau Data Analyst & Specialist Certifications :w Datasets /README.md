@@ -12,11 +12,12 @@ Here are what I learnt in the various sections:
     - Crosstab challenge.xlsx
     - Crosstab n2.xlsx
     - Rotten Tomatoes top 200 of 2010s.csv
-  - Use cases:
-    - I 
     
   - In this section, I learnt about:
-    - H
+    - Creating barcharts, line charts, stacked barchart, histograms, heatmaps, treemaps, bullet graphs, combined axis charts, dual axis charts, scatterplots, cross tabs, bar-in-bar charts and boxplots.
+    - I also learnt about using mark labels and annoations.
+    - Adjusting titles, captions, and tooltips.
+    - Editing axes.
 
 
 - Section 3:
